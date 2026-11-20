@@ -1,0 +1,181 @@
+Country,Material,Regulation,What it covers
+EU,Steel,Construction Products Regulation (EU) 2024/3110,Sets requirements for steel products used in construction.
+EU,Steel,CBAM Regulation (EU) 2023/956,Controls carbon emissions associated with imported steel.
+EU,Steel,EU Emissions Trading System (Directive 2003/87/EC),Requires covered steel industries to account for their greenhouse gas emissions.
+EU,Steel,Waste Framework Directive 2008/98/EC,"Promotes steel scrap collection, reuse and recycling."
+EU,Plastic (PET),Single-Use Plastics Directive (EU) 2019/904,Restricts certain single-use plastic products and promotes recycling.
+EU,Plastic (PET),Packaging and Packaging Waste Regulation (EU) 2025/40,Sets requirements for plastic packaging and recyclability.
+EU,Plastic (PET),REACH Regulation (EC) 1907/2006,Controls hazardous chemicals used in plastic production.
+EU,Plastic (PET),Waste Framework Directive 2008/98/EC,Establishes rules for plastic waste collection and recycling.
+EU,Glass,Construction Products Regulation (EU) 2024/3110,Sets performance requirements for glass used in buildings.
+EU,Glass,Packaging and Packaging Waste Regulation (EU) 2025/40,Promotes reusable and recyclable glass packaging.
+EU,Glass,Industrial Emissions Directive 2010/75/EU,Controls pollution from industrial glass manufacturing.
+EU,Glass,Waste Framework Directive 2008/98/EC,Promotes glass collection and recycling.
+EU,Aluminium,CBAM Regulation (EU) 2023/956,Addresses carbon emissions from imported aluminium.
+EU,Aluminium,EU Emissions Trading System (Directive 2003/87/EC),Controls greenhouse gas emissions from covered aluminium production.
+EU,Aluminium,Construction Products Regulation (EU) 2024/3110,Regulates aluminium products used in construction.
+EU,Aluminium,Waste Framework Directive 2008/98/EC,Encourages aluminium recycling and reuse.
+EU,Concrete,Construction Products Regulation (EU) 2024/3110,Sets standards for concrete construction products.
+EU,Concrete,CBAM Regulation (EU) 2023/956,Covers imported cement products and their carbon emissions.
+EU,Concrete,Industrial Emissions Directive 2010/75/EU,Controls industrial pollution from cement and related production.
+EU,Concrete,Waste Framework Directive 2008/98/EC,Promotes recycling of concrete and construction waste.
+EU,Paper/Cardboard,Packaging and Packaging Waste Regulation (EU) 2025/40,Sets recycling and sustainability requirements for paper packaging.
+EU,Paper/Cardboard,Waste Framework Directive 2008/98/EC,Promotes paper and cardboard waste recycling.
+EU,Paper/Cardboard,REACH Regulation (EC) 1907/2006,Controls hazardous chemicals used in paper and cardboard production.
+EU,Paper/Cardboard,Ecodesign for Sustainable Products Regulation (EU) 2024/1781,Establishes a framework for improving product sustainability and resource efficiency.
+EU,Wood,EU Deforestation Regulation (EU) 2023/1115,Requires covered wood products to be deforestation-free and legally produced.
+EU,Wood,Construction Products Regulation (EU) 2024/3110,Sets requirements for structural timber and wood construction products.
+EU,Wood,REACH Regulation (EC) 1907/2006,Controls hazardous chemicals in wood treatments and finishes.
+EU,Wood,Waste Framework Directive 2008/98/EC,Promotes wood waste reuse and recycling.
+EU,Copper,REACH Regulation (EC) 1907/2006,Controls chemical substances and hazardous materials used in copper production.
+EU,Copper,CLP Regulation (EC) 1272/2008,Sets rules for classifying and labelling hazardous copper compounds.
+EU,Copper,Waste Framework Directive 2008/98/EC,"Encourages copper scrap recovery, reuse and recycling."
+EU,Copper,Construction Products Regulation (EU) 2024/3110,Applies to copper products manufactured for covered construction uses.
+EU,Brick,Construction Products Regulation (EU) 2024/3110,Sets performance requirements for bricks used in construction.
+EU,Brick,Industrial Emissions Directive 2010/75/EU,Controls pollution from industrial brick manufacturing.
+EU,Brick,EU Emissions Trading System (Directive 2003/87/EC),Applies carbon-emission requirements to covered industrial installations.
+EU,Brick,Waste Framework Directive 2008/98/EC,Promotes the reuse and recycling of brick waste.
+EU,Ceramic,Construction Products Regulation (EU) 2024/3110,Sets requirements for ceramic construction products and tiles.
+EU,Ceramic,Industrial Emissions Directive 2010/75/EU,Controls emissions from industrial ceramic manufacturing.
+EU,Ceramic,REACH Regulation (EC) 1907/2006,Controls hazardous chemical substances used in ceramic glazes and production.
+EU,Ceramic,Waste Framework Directive 2008/98/EC,Establishes rules for managing and recycling ceramic waste.
+EU,Rubber,REACH Regulation (EC) 1907/2006,Restricts certain harmful chemicals used in rubber manufacturing.
+EU,Rubber,EU Deforestation Regulation (EU) 2023/1115,Requires covered natural rubber products to meet deforestation-free sourcing requirements.
+EU,Rubber,Tyre Labelling Regulation (EU) 2020/740,"Requires information about tyre fuel efficiency, wet grip and noise."
+EU,Rubber,Waste Framework Directive 2008/98/EC,"Promotes proper collection, treatment and recycling of rubber waste."
+EU,Cotton fabric,Textile Labelling Regulation (EU) 1007/2011,"Requires accurate labelling of textile fibre composition, including cotton."
+EU,Cotton fabric,REACH Regulation (EC) 1907/2006,Restricts harmful chemicals used in textile dyes and treatments.
+EU,Cotton fabric,Waste Framework Directive 2008/98/EC,Establishes requirements for textile waste management and separate collection.
+EU,Cotton fabric,Ecodesign for Sustainable Products Regulation (EU) 2024/1781,"Provides a framework for making textiles more durable, sustainable and recyclable."
+EU,Wool,Textile Labelling Regulation (EU) 1007/2011,Regulates the use of wool fibre names and textile composition labels.
+EU,Wool,REACH Regulation (EC) 1907/2006,Controls hazardous chemicals used in wool processing and treatment.
+EU,Wool,Waste Framework Directive 2008/98/EC,"Promotes textile waste collection, reuse and recycling."
+EU,Wool,Ecodesign for Sustainable Products Regulation (EU) 2024/1781,Provides a framework for improving the durability and sustainability of textile products.
+EU,Asphalt,Construction Products Regulation (EU) 2024/3110,Sets requirements for asphalt products used in road construction.
+EU,Asphalt,Industrial Emissions Directive 2010/75/EU,Controls pollution from industrial installations within its scope.
+EU,Asphalt,REACH Regulation (EC) 1907/2006,Controls hazardous chemical substances used in asphalt mixtures.
+EU,Asphalt,Waste Framework Directive 2008/98/EC,Encourages the recovery and recycling of reclaimed asphalt.
+EU,Gypsum (drywall),Construction Products Regulation (EU) 2024/3110,Sets performance requirements for gypsum boards and plasterboard products.
+EU,Gypsum (drywall),REACH Regulation (EC) 1907/2006,Controls hazardous chemicals that may be present in gypsum products.
+EU,Gypsum (drywall),Waste Framework Directive 2008/98/EC,Promotes the recycling and recovery of gypsum construction waste.
+EU,Gypsum (drywall),Landfill Directive 1999/31/EC,"Establishes requirements for waste disposal in landfills, including restrictions relevant to gypsum waste."
+UAE,Steel,UAE Building Code,Structural strength and load-bearing requirements.
+UAE,Steel,UAE Fire and Life Safety Code,Fire resistance and protection requirements.
+UAE,Steel,UAE Green Building Regulations,Recycled content and sustainable sourcing.
+UAE,Steel,UAE Waste Management Law,Recycling and proper disposal of steel waste.
+UAE,Plastic (PET),UAE Product Conformity Requirements,Product quality and safety standards.
+UAE,Plastic (PET),UAE Fire and Life Safety Code,Flammability and fire safety requirements.
+UAE,Plastic (PET),UAE Green Building Regulations,Sustainable and recycled plastic use.
+UAE,Plastic (PET),UAE Waste Management Law,Plastic waste collection and recycling.
+UAE,Glass,UAE Building Code,"Safety, strength and building glazing requirements."
+UAE,Glass,UAE Fire and Life Safety Code,Fire-rated glass requirements where applicable.
+UAE,Glass,UAE Green Building Regulations,Energy-efficient glazing requirements.
+UAE,Glass,UAE Waste Management Law,Glass waste recycling and disposal.
+UAE,Aluminium,UAE Building Code,Structural strength and installation requirements.
+UAE,Aluminium,UAE Fire and Life Safety Code,Fire safety requirements for aluminium systems.
+UAE,Aluminium,UAE Green Building Regulations,Recycled aluminium and energy efficiency.
+UAE,Aluminium,UAE Waste Management Law,Aluminium scrap collection and recycling.
+UAE,Concrete,UAE Building Code,Concrete strength and structural safety.
+UAE,Concrete,UAE Concrete Standards,"Quality, composition and testing requirements."
+UAE,Concrete,UAE Green Building Regulations,Sustainable concrete and recycled aggregates.
+UAE,Concrete,UAE Waste Management Law,Concrete debris recycling and disposal.
+UAE,Paper/Cardboard,UAE Fire and Life Safety Code,Fire prevention and storage safety.
+UAE,Paper/Cardboard,UAE Environmental Regulations,Control of environmental pollution.
+UAE,Paper/Cardboard,UAE Green Building Regulations,Use of recycled paper products.
+UAE,Paper/Cardboard,UAE Waste Management Law,Paper and cardboard recycling.
+UAE,Wood,UAE Building Code,Structural strength and quality requirements.
+UAE,Wood,UAE Fire and Life Safety Code,Fire resistance and fire protection.
+UAE,Wood,UAE Green Building Regulations,Sustainable timber sourcing.
+UAE,Wood,UAE Waste Management Law,Wood waste recycling and disposal.
+UAE,Copper,UAE Building Code,Quality and safety requirements for building applications.
+UAE,Copper,UAE Fire and Life Safety Code,Fire safety of installed copper systems.
+UAE,Copper,UAE Green Building Regulations,Recycled copper and sustainable use.
+UAE,Copper,UAE Waste Management Law,Copper scrap recycling.
+UAE,Brick,UAE Building Code,Strength and construction requirements.
+UAE,Brick,UAE Fire and Life Safety Code,Fire resistance requirements.
+UAE,Brick,UAE Green Building Regulations,Sustainable building material requirements.
+UAE,Brick,UAE Waste Management Law,Brick waste recycling and disposal.
+UAE,Ceramic,UAE Building Code,Quality and installation requirements.
+UAE,Ceramic,UAE Product Conformity Requirements,Product quality and safety.
+UAE,Ceramic,UAE Green Building Regulations,Sustainable material selection.
+UAE,Ceramic,UAE Waste Management Law,Ceramic waste collection and disposal.
+UAE,Rubber,UAE Product Conformity Requirements,Product quality and safety.
+UAE,Rubber,UAE Fire and Life Safety Code,Flammability and fire protection.
+UAE,Rubber,UAE Environmental Regulations,Control of harmful substances and pollution.
+UAE,Rubber,UAE Waste Management Law,Rubber waste recycling and disposal.
+UAE,Cotton fabric,UAE Product Safety Requirements,Consumer product safety.
+UAE,Cotton fabric,UAE Fire and Life Safety Code,Fire safety and flammability.
+UAE,Cotton fabric,UAE Environmental Regulations,Chemical and pollution control.
+UAE,Cotton fabric,UAE Waste Management Law,Textile waste recycling and disposal.
+UAE,Wool,UAE Product Safety Requirements,Product quality and safety.
+UAE,Wool,UAE Fire and Life Safety Code,Fire safety requirements.
+UAE,Wool,UAE Environmental Regulations,Chemical and environmental protection.
+UAE,Wool,UAE Waste Management Law,Textile waste management and recycling.
+UAE,Asphalt,UAE Building Code,Road and construction quality requirements.
+UAE,Asphalt,UAE Environmental Regulations,Control of emissions and pollution.
+UAE,Asphalt,UAE Occupational Safety Requirements,Safe handling and hot-work precautions.
+UAE,Asphalt,UAE Waste Management Law,Asphalt waste recycling and disposal.
+UAE,Gypsum (drywall),UAE Building Code,Quality and installation requirements.
+UAE,Gypsum (drywall),UAE Fire and Life Safety Code,Fire-rated drywall requirements.
+UAE,Gypsum (drywall),UAE Green Building Regulations,Sustainable gypsum products.
+UAE,Gypsum (drywall),UAE Waste Management Law,Gypsum waste recycling and disposal.
+US,Steel,Clean Air Act,"Limits non-greenhouse air pollution (dust, metals) from iron and steel plants."
+US,Steel,Clean Water Act,Wastewater limits for iron and steel manufacturing.
+US,Steel,Buy Clean California Act (California),Caps the carbon footprint of structural steel used in state-funded projects.
+US,Steel,Resource Conservation and Recovery Act (RCRA),"Federal waste law; scrap metal sent for recycling is exempt from hazardous-waste rules, which encourages recycling."
+US,Plastic (PET),"Federal Food, Drug, and Cosmetic Act","FDA safety rules for plastics, including recycled PET, that touch food and drink."
+US,Plastic (PET),Clean Air Act,Limits toxic air pollutants from plastic resin manufacturing plants.
+US,Plastic (PET),California SB 54 (California),Requires plastic packaging to be recyclable or compostable and cuts single-use plastic.
+US,Plastic (PET),"State container deposit laws (e.g. California, Michigan)",Refundable deposits on PET drink bottles to boost recycling.
+US,Glass,Clean Air Act,Limits air pollution from glass manufacturing furnaces.
+US,Glass,CPSC Safety Glazing Standard (16 CFR 1201),"Requires safety glass in doors, shower enclosures and similar uses."
+US,Glass,Buy Clean California Act (California),Caps the carbon footprint of flat glass used in state-funded projects.
+US,Glass,"State container deposit laws (e.g. California, Michigan)",Refundable deposits on glass bottles to boost recycling.
+US,Aluminium,Clean Air Act,Limits air pollution from aluminium smelters.
+US,Aluminium,Clean Water Act,Wastewater limits for aluminium smelting and forming.
+US,Aluminium,Resource Conservation and Recovery Act (RCRA),Treats spent potliner from smelting as hazardous waste; scrap aluminium sent for recycling is exempt.
+US,Aluminium,"State container deposit laws (e.g. California, Michigan)",Refundable deposits on aluminium cans to boost recycling.
+US,Concrete,Clean Air Act,"Limits mercury, dust and other non-greenhouse pollutants from cement kilns."
+US,Concrete,Clean Water Act,Wastewater limits for cement manufacturing.
+US,Concrete,OSHA Respirable Crystalline Silica Standard,"Protects workers who cut, drill or grind concrete."
+US,Concrete,International Building Code (adopted by states),Strength and structural safety requirements for concrete.
+US,Paper/Cardboard,Lacey Act,Bans paper and wood products made from illegally harvested trees.
+US,Paper/Cardboard,Clean Air Act,Limits air pollution from pulp and paper mills.
+US,Paper/Cardboard,Clean Water Act,Wastewater limits for pulp and paper mills.
+US,Paper/Cardboard,California SB 54 (California),"Producer responsibility for single-use packaging, including paper packaging."
+US,Wood,Lacey Act,Bans trade in illegally harvested timber.
+US,Wood,Toxic Substances Control Act (TSCA) Title VI,"Formaldehyde emission limits for plywood, MDF and particleboard."
+US,Wood,"Federal Insecticide, Fungicide, and Rodenticide Act (FIFRA)",Regulates chemical wood preservatives used to treat timber.
+US,Wood,International Building Code (adopted by states),Structural and fire requirements for timber construction.
+US,Copper,Safe Drinking Water Act (Lead and Copper Rule),Limits copper and lead getting into drinking water from pipes.
+US,Copper,Reduction of Lead in Drinking Water Act,Requires copper and brass plumbing fittings to be lead-free.
+US,Copper,Clean Air Act,Limits air pollution from copper smelters.
+US,Copper,Resource Conservation and Recovery Act (RCRA),"Scrap copper sent for recycling is exempt from hazardous-waste rules, which encourages recycling."
+US,Brick,Clean Air Act,Limits toxic air pollutants from brick and clay product kilns.
+US,Brick,OSHA Respirable Crystalline Silica Standard,Protects workers who cut or grind brick.
+US,Brick,International Building Code (adopted by states),Strength and construction requirements for masonry.
+US,Brick,Resource Conservation and Recovery Act (RCRA),"Rules for landfilling construction and demolition waste, including brick."
+US,Ceramic,"Federal Food, Drug, and Cosmetic Act",FDA limits on lead and cadmium leaching from ceramic tableware.
+US,Ceramic,Clean Air Act,Limits toxic air pollutants from clay ceramics manufacturing.
+US,Ceramic,OSHA Respirable Crystalline Silica Standard,Protects workers who cut ceramic tiles.
+US,Ceramic,Consumer Product Safety Improvement Act,"Lead limits for children's products, including ceramic items."
+US,Rubber,Clean Air Act,Limits toxic air pollutants from rubber tyre manufacturing.
+US,Rubber,Clean Water Act,Wastewater limits for rubber manufacturing.
+US,Rubber,Federal Motor Vehicle Safety Standards (NHTSA),"Safety, labelling and treadwear grading rules for tyres."
+US,Rubber,Resource Conservation and Recovery Act (RCRA) and state scrap-tyre laws,"Collection, disposal and recycling of waste tyres."
+US,Cotton fabric,Textile Fiber Products Identification Act,"Requires labels to show fibre content, such as cotton."
+US,Cotton fabric,Flammable Fabrics Act,Flammability standards for clothing and household textiles.
+US,Cotton fabric,Clean Water Act,"Wastewater limits for textile mills, including dyeing."
+US,Cotton fabric,"Federal Insecticide, Fungicide, and Rodenticide Act (FIFRA)",Regulates pesticides used to grow cotton.
+US,Wool,Wool Products Labeling Act,"Requires labels to show wool content, including recycled wool."
+US,Wool,Flammable Fabrics Act,Flammability standards for clothing and household textiles.
+US,Wool,Clean Water Act,"Wastewater limits for textile mills, including wool scouring."
+US,Wool,FTC Act (Green Guides),"Bans misleading ""eco-friendly"" or ""recycled"" claims on products."
+US,Asphalt,Clean Air Act,Limits dust and other pollutants from hot mix asphalt plants.
+US,Asphalt,Clean Water Act,Wastewater limits for paving and roofing materials manufacturing.
+US,Asphalt,OSHA Respirable Crystalline Silica Standard,Protects workers milling asphalt road surfaces.
+US,Asphalt,Resource Conservation and Recovery Act (RCRA),Rules for disposal of asphalt and other construction waste.
+US,Gypsum (drywall),Clean Air Act,Limits dust from gypsum processing and drying plants.
+US,Gypsum (drywall),Drywall Safety Act,Limits sulfur in drywall and requires manufacturer labelling.
+US,Gypsum (drywall),International Building Code (adopted by states),Fire-rated drywall requirements.
+US,Gypsum (drywall),Resource Conservation and Recovery Act (RCRA),"Rules for landfilling construction and demolition waste, including drywall."

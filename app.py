@@ -12,6 +12,17 @@ st.set_page_config(page_title="GreenSpec AI", page_icon="🌱")
 # ---------------------------------------------------------------
 SHEET_CSV_URL = ""
 
+# Countries the product can be sold in (must match the Country column in regulations.csv)
+COUNTRIES = ["EU", "US", "UAE"]
+
+# Extra context shown above the laws for a country (optional)
+COUNTRY_NOTES = {
+    "US": "The US has no federal climate (carbon) laws right now: it left the Paris Agreement "
+          "in January 2026, and in February 2026 the EPA stopped regulating greenhouse gases. "
+          "Federal waste, pollution, chemical and safety laws still apply, and some states "
+          "(such as California) have their own climate rules. These are listed below.",
+}
+
 # How much each factor counts towards the final score (adds up to 1)
 WEIGHTS = {"carbon": 0.4, "recycling": 0.3, "energy": 0.3}
 
@@ -22,6 +33,15 @@ def load_materials():
     df.columns = ["material", "carbon", "recycling", "energy"]
     df["material"] = df["material"].str.strip()
     return df.set_index("material")
+
+
+@st.cache_data
+def load_regulations():
+    # Step 5: laws per country and material. BBA team: edit regulations.csv
+    # to add or change laws - no code changes needed.
+    df = pd.read_csv("regulations.csv")
+    df.columns = ["country", "material", "regulation", "covers"]
+    return df.apply(lambda col: col.str.strip())
 
 
 def sustainability_score(carbon, recycling, energy):
@@ -44,6 +64,7 @@ def sustainability_score(carbon, recycling, energy):
 
 
 materials = load_materials()
+regulations = load_regulations()
 
 st.title("🌱 GreenSpec AI")
 st.write("Enter your product details to check how sustainable it is.")
@@ -53,23 +74,24 @@ with st.form("product_form"):
     material = st.selectbox("Material it is made from", materials.index.tolist(),
                             index=None, placeholder="Choose a material")
     manufacturing = st.text_input("How it is manufactured", placeholder="e.g. Injection moulding")
-    country = st.text_input("Country it is sold in", placeholder="e.g. UAE")
+    country = st.selectbox("Country it is sold in", COUNTRIES,
+                           index=None, placeholder="Choose where it is sold")
 
     submitted = st.form_submit_button("Submit")
 
 if submitted:
-    if not all([product_name.strip(), material, manufacturing.strip(), country.strip()]):
+    if not all([product_name.strip(), material, manufacturing.strip(), country]):
         st.error("Please fill in all four fields.")
     else:
         row = materials.loc[material]
         score, parts = sustainability_score(row["carbon"], row["recycling"], row["energy"])
 
-        # Saved so later steps (AI suggestions, regulations) can use it
+        # Saved so later steps can use it
         st.session_state["product"] = {
             "name": product_name.strip(),
             "material": material,
             "manufacturing": manufacturing.strip(),
-            "country": country.strip(),
+            "country": country,
             "score": score,
         }
 
@@ -87,3 +109,17 @@ if submitted:
         st.write("**Score breakdown** (higher is better for all three)")
         chart = pd.DataFrame({"Score (1-10)": parts})
         st.bar_chart(chart)
+
+        # --- Step 5: Regulations panel ---
+        st.subheader(f"📜 Rules for {material} in the {country}")
+        if country in COUNTRY_NOTES:
+            st.info(COUNTRY_NOTES[country], icon="ℹ️")
+        laws = regulations[(regulations["country"] == country) & (regulations["material"] == material)]
+        if laws.empty:
+            st.info(f"Regulations for {material} in the {country} haven't been added yet.")
+        else:
+            with st.container(border=True):
+                for law in laws.itertuples():
+                    st.markdown(f"- **{law.regulation}**: {law.covers}")
+            st.caption("Some rules cover several materials, and whether they apply can depend on "
+                       "the product, the industry and legal thresholds. This is a summary, not legal advice.")
